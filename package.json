@@ -1,0 +1,15 @@
+{
+  "name": "rust-npm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "rust_npm_bg.wasm",
+    "rust_npm.js",
+    "rust_npm.d.ts"
+  ],
+  "main": "rust_npm.js",
+  "types": "rust_npm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
